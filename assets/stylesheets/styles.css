@@ -113,6 +113,7 @@ nav img {
 
 /* main video */
 .video {
+  float: left;
   padding: 25px;
 }
 
@@ -121,6 +122,7 @@ nav img {
   font-weight: 700;
   padding: 8px 0;
 }
+
 /* video details */
 .video-details {
   height: 40px;
@@ -149,4 +151,38 @@ nav img {
   line-height: 40px;
   float: left;
   padding: 0 10px;
+}
+
+/* aside recommended videos */
+aside {
+  float: right;
+  width: 440px;
+  background-color: aqua;
+  padding: 25px 5px;
+}
+
+.recommendation-video {
+  padding-bottom: 10px;
+}
+
+.recommendation-video img {
+  float: left;
+}
+
+.recommendation-video .details {
+  float: right;
+  width: 240px;
+}
+
+.recommendation-video .title {
+  font-weight: 600;
+  padding-bottom: 3px;
+}
+
+.meta-info {
+  color: grey;
+}
+
+.hash-tag {
+  color: blue;
 }
