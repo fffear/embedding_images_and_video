@@ -5,19 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/stylesheets/resets.css">
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
     <title>The Odin Project- Embedding Images and Video Project</title>
   </head>
   <body>
-    <header>
-      <!-- Menu button, which is also the Youtube logo -->
-      <!-- Search Bar -->
-      <!-- Button to create new video or post -->
-      <!-- Youtube apps -->
-      <!-- Settings -->
-      <!-- Sign in button -->
+    <header class="clearfix">
+      <div class="left-menu">
+        <img class="nav-icon" src="assets/images/hamburger_menu.svg" alt="menu button">
+        <img class="youtube_logo" src="assets/images/youtube_logo.svg" alt="youtube logo">
+      </div>
+
+      <!-- Nav Bar -->
       <nav>
-        
+        <ul class="clearfix">
+          <li><img class="nav-icon" src="assets/images/camera.svg" alt="camera"></li>
+          <li><img class="nav-icon" src="assets/images/apps_icon.svg" alt="apps"></li>
+          <li><img class= "nav-icon" src="assets/images/settings.svg" alt="settings"></li>
+          <li class="login"><img class= "nav-icon" src="assets/images/login.svg" alt="test"> SIGN IN</li>
+        </ul>
       </nav>
+
+      <!-- Search Bar -->
+      <form class="clearfix">
+        <div class="search-bar">
+          <input class="search-bar-object" type="text" name="search_query" placeholder="Search">
+        </div>
+        <div class="search-btn">
+          <button class="search-bar-object" type="submit">
+            <img class="search-icon" src="assets/images/search_icon.svg" alt="search icon">
+          </button>
+        </div>
+      </form>
+
+
+        <!-- Button to create new video or post -->
+        <!-- Youtube apps -->
+        <!-- Settings -->
+        <!-- Sign in button -->
     </header>
   
     <!-- main video of page -->
@@ -44,6 +68,6 @@
       <p>Video length</p>
       <p>Thumbnail</p>
     </aside>  
-    
+    <div>Icons made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
   </body>
 </html>

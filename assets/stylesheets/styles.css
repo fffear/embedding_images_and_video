@@ -1,0 +1,114 @@
+/* utils */
+.clearfix::after {
+  clear:both;
+  content: "";
+  display: block;
+}
+
+/* icons */
+.left-menu {
+  float: left;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: yellowgreen;
+}
+
+.left-menu img {
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+
+.nav-icon {
+  height: 24px;
+  width: 24px;
+  fill: grey;
+}
+
+.youtube_logo {
+  height: 24px;
+  width: 80px;
+}
+
+header {
+  background: orchid;
+  padding: 10px;
+}
+
+
+/* search bar */
+form {
+  height: 32px;
+  width: 575px;
+  margin: 0 auto;
+  background: yellowgreen;
+  display: block;
+  box-sizing: border-box;
+}
+
+.search-bar {
+  float: left;
+  box-sizing: inherit;
+  height: inherit;
+  width: 510px;
+  margin: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+.search-bar-object {
+  width: inherit;
+  height: inherit;
+  box-sizing: inherit;
+  border: 1px solid grey;
+}
+
+.search-bar input {
+  padding-left: 8px;
+  border-radius: 3px 0 0 3px;
+}
+
+.search-btn {
+  height: inherit;
+  width: 65px;
+  float: left;
+  box-sizing: inherit;
+}
+
+.search-btn button {
+  border-radius: 0 3px 3px 0;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  border: 0 none;
+}
+
+/* nav bar floated right */
+nav {
+  float: right;
+  height: 32px;
+  line-height: 32px;
+  background: yellowgreen;
+}
+
+nav li {
+  float: left;
+  height: inherit;
+  line-height: inherit;
+  padding: 0 10px 0 10px;
+
+}
+
+nav img {
+  vertical-align: middle;
+}
+
+.login {
+  border: 1px solid blue;
+  border-radius: 2px;
+  color: blue;
+}
+
